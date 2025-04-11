@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import Navbar from '@/components/Navbar';
@@ -17,10 +16,10 @@ const Index = () => {
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-10 md:mb-0">
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                  Verify Academic Credentials with Confidence
+                  Verify Borno State University Academic Credentials
                 </h1>
                 <p className="text-xl mb-8">
-                  Our platform connects organizations with educational institutions to verify student information, transcripts, and certificates securely and efficiently.
+                  Our platform connects organizations with Borno State University to verify student information, transcripts, and certificates securely and efficiently.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link to="/verify">
@@ -30,15 +29,15 @@ const Index = () => {
                   </Link>
                   <Link to="/register">
                     <Button variant="outline" className="border-white text-white hover:bg-white/10 px-6 py-2 text-lg">
-                      Register Your Institution
+                      Register Your Organization
                     </Button>
                   </Link>
                 </div>
               </div>
               <div className="md:w-1/2 md:pl-10">
                 <img 
-                  src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
-                  alt="Graduates" 
+                  src="/lovable-uploads/26ba3b46-06fd-4414-85c0-32d88f1ca681.png" 
+                  alt="Borno State University Gate" 
                   className="rounded-lg shadow-lg"
                 />
               </div>
@@ -52,7 +51,7 @@ const Index = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold mb-4">How It Works</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Our streamlined process makes verification simple for both organizations and educational institutions.
+                Our streamlined process makes verification simple for both organizations and Borno State University.
               </p>
             </div>
             
@@ -90,8 +89,65 @@ const Index = () => {
           </div>
         </section>
         
-        {/* Features Section */}
+        {/* About Section */}
         <section className="bg-gray-100 py-20">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold mb-4">About Borno State University</h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Established to provide quality education and research opportunities.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div>
+                <img 
+                  src="/lovable-uploads/eb272465-4848-4981-ab32-f74bffcc9a30.png" 
+                  alt="Borno State University Campus" 
+                  className="rounded-lg shadow-md"
+                />
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4">Excellence in Education</h3>
+                <p className="text-gray-700 mb-4">
+                  Borno State University is committed to providing high-quality education to students 
+                  from diverse backgrounds. Our modern facilities and dedicated faculty ensure that 
+                  students receive the best possible education.
+                </p>
+                <p className="text-gray-700">
+                  The university offers a wide range of undergraduate and postgraduate programs 
+                  across various disciplines, preparing students for successful careers in their 
+                  chosen fields.
+                </p>
+              </div>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-16">
+              <div className="order-2 md:order-1">
+                <h3 className="text-2xl font-semibold mb-4">Campus Life</h3>
+                <p className="text-gray-700 mb-4">
+                  Our beautiful campus provides an inspiring environment for learning and personal 
+                  growth. Students benefit from state-of-the-art facilities including modern 
+                  classrooms, laboratories, libraries, and recreational areas.
+                </p>
+                <p className="text-gray-700">
+                  The university encourages students to participate in extracurricular activities, 
+                  sports, and cultural events to foster holistic development.
+                </p>
+              </div>
+              <div className="order-1 md:order-2">
+                <img 
+                  src="/lovable-uploads/c88374a7-c5e0-4961-ae8e-6791aa8aec5f.png" 
+                  alt="Borno State University Landscape" 
+                  className="rounded-lg shadow-md"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        {/* Features Section */}
+        <section className="bg-white py-20">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold mb-4">Key Features</h2>
@@ -181,7 +237,7 @@ const Index = () => {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-6">Ready to Start Verifying?</h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Join thousands of organizations that trust our platform for their verification needs.
+              Join organizations that trust our platform for verifying Borno State University credentials.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/verify">

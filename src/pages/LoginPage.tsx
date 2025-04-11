@@ -4,7 +4,12 @@ import LoginForm from '@/components/LoginForm';
 
 const LoginPage: React.FC = () => {
   return (
-    <div className="auth-background min-h-screen w-full flex items-center justify-center relative">
+    <div 
+      className="min-h-screen w-full flex items-center justify-center relative bg-cover bg-center" 
+      style={{ 
+        backgroundImage: 'linear-gradient(rgba(0, 0, 32, 0.7), rgba(0, 0, 32, 0.7)), url("/lovable-uploads/26ba3b46-06fd-4414-85c0-32d88f1ca681.png")' 
+      }}
+    >
       <div className="z-10">
         <LoginForm />
       </div>
