@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for our university theme
+				university: {
+					red: '#A51C30',
+					gray: '#8C8C8C',
+					lightgray: '#F5F5F5',
+					darkblue: '#0D4D7A',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
