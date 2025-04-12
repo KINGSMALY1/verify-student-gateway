@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import Navbar from '@/components/Navbar';
@@ -36,8 +37,8 @@ const Index = () => {
               </div>
               <div className="md:w-1/2 md:pl-10">
                 <img 
-                  src="/lovable-uploads/26ba3b46-06fd-4414-85c0-32d88f1ca681.png" 
-                  alt="Borno State University Gate" 
+                  src="/lovable-uploads/c10b4f37-1081-43c1-8556-e44dc4b6efb0.png" 
+                  alt="Borno State University Senate Building" 
                   className="rounded-lg shadow-lg"
                 />
               </div>
@@ -95,15 +96,15 @@ const Index = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold mb-4">About Borno State University</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Established to provide quality education and research opportunities.
+                Established in 2016 to provide quality education and research opportunities.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
                 <img 
-                  src="/lovable-uploads/eb272465-4848-4981-ab32-f74bffcc9a30.png" 
-                  alt="Borno State University Campus" 
+                  src="/lovable-uploads/c10b4f37-1081-43c1-8556-e44dc4b6efb0.png" 
+                  alt="Borno State University Senate Building" 
                   className="rounded-lg shadow-md"
                 />
               </div>
@@ -137,8 +138,8 @@ const Index = () => {
               </div>
               <div className="order-1 md:order-2">
                 <img 
-                  src="/lovable-uploads/c88374a7-c5e0-4961-ae8e-6791aa8aec5f.png" 
-                  alt="Borno State University Landscape" 
+                  src="/lovable-uploads/4de329c0-9f2a-4390-b66a-a824308fceb3.png" 
+                  alt="Borno State University Library" 
                   className="rounded-lg shadow-md"
                 />
               </div>
