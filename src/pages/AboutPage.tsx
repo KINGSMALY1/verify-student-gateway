@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -180,6 +179,27 @@ const AboutPage: React.FC = () => {
                         <img 
                           src="/lovable-uploads/0f24e89f-ad24-405e-bf99-7a76c53bb4f1.png" 
                           alt="University Campus View" 
+                          className="w-full h-64 object-cover rounded-lg"
+                        />
+                      </CarouselItem>
+                      <CarouselItem className="h-full">
+                        <img 
+                          src="/lovable-uploads/26ba3b46-06fd-4414-85c0-32d88f1ca681.png" 
+                          alt="University Campus Building" 
+                          className="w-full h-64 object-cover rounded-lg"
+                        />
+                      </CarouselItem>
+                      <CarouselItem className="h-full">
+                        <img 
+                          src="/lovable-uploads/8ee4d66b-ef1f-4606-8a89-36ea0fd61e10.png" 
+                          alt="University Original Grounds" 
+                          className="w-full h-64 object-cover rounded-lg"
+                        />
+                      </CarouselItem>
+                      <CarouselItem className="h-full">
+                        <img 
+                          src="/lovable-uploads/c88374a7-c5e0-4961-ae8e-6791aa8aec5f.png" 
+                          alt="University Campus Architecture" 
                           className="w-full h-64 object-cover rounded-lg"
                         />
                       </CarouselItem>
