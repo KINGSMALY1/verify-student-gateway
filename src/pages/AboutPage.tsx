@@ -2,8 +2,14 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { Link } from 'react-router-dom';
 import VerificationForm from '@/components/VerificationForm';
+import { 
+  Carousel, 
+  CarouselContent, 
+  CarouselItem, 
+  CarouselNext, 
+  CarouselPrevious 
+} from "@/components/ui/carousel";
 
 const AboutPage: React.FC = () => {
   return (
@@ -153,11 +159,35 @@ const AboutPage: React.FC = () => {
                 <p className="text-gray-600">A modern resource center for students and faculty.</p>
               </div>
               <div className="hover-scale">
-                <img 
-                  src="/lovable-uploads/8ee4d66b-ef1f-4606-8a89-36ea0fd61e10.png" 
-                  alt="University Grounds" 
-                  className="rounded-lg shadow-md w-full h-64 object-cover mb-3"
-                />
+                <div className="relative rounded-lg shadow-md mb-3 h-64">
+                  <Carousel className="w-full h-full">
+                    <CarouselContent className="h-64">
+                      <CarouselItem className="h-full">
+                        <img 
+                          src="/lovable-uploads/c24d4037-e3ea-4e98-b84c-5dc69fefbc07.png" 
+                          alt="University Main Gate" 
+                          className="w-full h-64 object-cover rounded-lg"
+                        />
+                      </CarouselItem>
+                      <CarouselItem className="h-full">
+                        <img 
+                          src="/lovable-uploads/9a24c013-f2a4-4541-b7e3-620cbae53ae2.png" 
+                          alt="University Courtyard" 
+                          className="w-full h-64 object-cover rounded-lg"
+                        />
+                      </CarouselItem>
+                      <CarouselItem className="h-full">
+                        <img 
+                          src="/lovable-uploads/0f24e89f-ad24-405e-bf99-7a76c53bb4f1.png" 
+                          alt="University Campus View" 
+                          className="w-full h-64 object-cover rounded-lg"
+                        />
+                      </CarouselItem>
+                    </CarouselContent>
+                    <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2" />
+                    <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2" />
+                  </Carousel>
+                </div>
                 <h3 className="text-lg font-semibold">University Grounds</h3>
                 <p className="text-gray-600">Beautiful campus environments for learning and growth.</p>
               </div>
