@@ -17,10 +17,10 @@ const Navbar: React.FC = () => {
         
         <div className="flex items-center gap-4">
           <Link to="/about" className={`${isActive('/about') ? 'text-university-darkblue font-medium' : 'text-gray-600'} hover:text-university-darkblue`}>
-            About
+            Verify Students
           </Link>
-          <Link to="/contact" className={`${isActive('/contact') ? 'text-university-darkblue font-medium' : 'text-gray-600'} hover:text-university-darkblue`}>
-            Contact
+          <Link to="/verify" className={`${isActive('/verify') ? 'text-university-darkblue font-medium' : 'text-gray-600'} hover:text-university-darkblue`}>
+            Credential Check
           </Link>
           <Link to="/login">
             <Button variant="outline" className="border-university-darkblue text-university-darkblue hover:bg-university-darkblue hover:text-white">
